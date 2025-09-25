@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,44 +7,75 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Rahul Tanwar</h1>
-    <p>Web Developer | Programmer | Designer</p>
+  <!-- Navbar -->
+  <nav>
+    <h1 class="logo">Rahul<span>Tanwar</span></h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Rahul</span></h2>
+      <p>Web Developer | Programmer | Designer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="rahul.jpg" alt="Rahul Tanwar">
+    </div>
   </header>
 
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a BCA student passionate about coding, web development and creating projects.</p>
+    <p>I am a BCA student passionate about coding, web development and creating modern web projects.</p>
   </section>
 
-  <!-- Projects -->
+  <!-- Projects with Images -->
   <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>A responsive personal portfolio using HTML, CSS and JavaScript.</p>
-      <a href="#">View Project</a>
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>TextUtils App</h3>
+        <p>Text editing tool made with JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Blog Website</h3>
+        <p>Personal blog using HTML and CSS only.</p>
+      </div>
     </div>
   </section>
 
   <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python, C, Java</li>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Python</li>
       <li>Git & GitHub</li>
     </ul>
   </section>
 
   <!-- Contact -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourname@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
-    <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@gmail.com">yourname@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
   </section>
 
   <footer>
@@ -53,3 +83,4 @@
   </footer>
 </body>
 </html>
+2.
